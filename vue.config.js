@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  base: '/fake-os-first-vue-app/',
   transpileDependencies: true,
   devServer: {
     proxy: {
